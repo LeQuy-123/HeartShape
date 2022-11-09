@@ -390,6 +390,11 @@
         // update and draw particles
         particles.update(deltaTime);
         particles.draw(context, image);
+
+        context.font = "30px Comic Sans MS";
+        context.fillStyle = "#ff3490";
+        context.textAlign = "center";
+        context.fillText("Iu em bé của anh :>", canvas.width / 2, canvas.height / 2); 
       }
 
       // handle (re-)sizing of the canvas
